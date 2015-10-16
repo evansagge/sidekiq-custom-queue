@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A Sidekiq plugin for specifying custom/dynamic queues based on the message passed to Sidekiq'
   spec.description = 'A Sidekiq plugin for specifying custom/dynamic queues based on the message passed to Sidekiq'
-  spec.homepage      = 'https://www.github.com/evansagge/sidekiq-custom-queues'
+  spec.homepage      = 'https://www.github.com/evansagge/sidekiq-custom-queue'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
