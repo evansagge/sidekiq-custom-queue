@@ -1,5 +1,7 @@
 # Sidekiq Custom Queue
 
+[![Build Status](https://travis-ci.org/evansagge/sidekiq-custom-queue.svg)](https://travis-ci.org/evansagge/sidekiq-custom-queue)
+
 A Sidekiq plugin for allowing workers to define custom/dynamic queues based on the queued message.
 
 ## Installation
