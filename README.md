@@ -28,7 +28,7 @@ Define a `custom_queue` class method in your worker class that can accept a sing
 as described in https://github.com/mperham/sidekiq/wiki/Job-Format. Define how to use the whole message or parts of to create the name
 for your custom queue:
 
-```
+```ruby
 class WorkerWithCustomQueue
   include Sidekiq::Worker
 
