@@ -45,7 +45,7 @@ end
 When you enqueue a job for this worker using `.perform_async` or `.perform_in`, it will generate the queue name from the `.custom_queue`
 method and put that job in this queue:
 
-```
+```ruby
 WorkerWithCustomQueue.perform_async('xyz', 1) # gets enqueued in the 'xyz_queue' instead of the default queue
 ```
 
