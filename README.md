@@ -1,6 +1,8 @@
 # Sidekiq Custom Queue
 
 [![Build Status](https://travis-ci.org/evansagge/sidekiq-custom-queue.svg)](https://travis-ci.org/evansagge/sidekiq-custom-queue)
+[![Code Climate](https://codeclimate.com/github/evansagge/sidekiq-custom-queue/badges/gpa.svg)](https://codeclimate.com/github/evansagge/sidekiq-custom-queue)
+[![Test Coverage](https://codeclimate.com/github/evansagge/sidekiq-custom-queue/badges/coverage.svg)](https://codeclimate.com/github/evansagge/sidekiq-custom-queue/coverage)
 
 A Sidekiq plugin for allowing workers to define custom/dynamic queues based on the queued message.
 
