@@ -24,6 +24,7 @@ describe Sidekiq::CustomQueue do
 
       it 'calculates the queue name using the custom_queue method and enqueues that job in that queue' do
         expect { subject }.to change { Sidekiq::Queue.new('xyz_queue').size }.by(1)
+        WorkerWithCustomQueue.sidekiq_options['queue'].should eq("default")
       end
     end
   end
